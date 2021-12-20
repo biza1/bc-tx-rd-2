@@ -1,0 +1,36 @@
+{
+  "name": "bc-tx-rd-2",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "16.x",
+    "npm": "7.x"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "del": "^6.0.0",
+    "discord-reply-v12-fix-ratelimit": "^0.1.21",
+    "discord.js-v12-fix-ratelimit": "^12.5.31",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "fast-folder-size": "^1.6.1",
+    "fs": "0.0.1-security",
+    "moment-timezone": "^0.5.34",
+    "multer": "^1.4.4",
+    "nocache": "^3.0.1",
+    "node-fetch": "^2.6.6",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "optionalDependencies": {
+    "bufferutil": "^4.0.5",
+    "utf-8-validate": "^5.0.7"
+  },
+  "description": "put    \"preinstall\": \"npm set progress=false && npm set audit false && npm config set fund false\",     in scripts: {} to install faster"
+}
